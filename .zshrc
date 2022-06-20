@@ -10,20 +10,7 @@ SAVEHIST=1000
 setopt extendedglob
 unsetopt beep
 
-export EDITOR="emacs"
-export VISUAL="emacs"
-export GOPATH="$HOME/programming/go"
-export ANTLR_JAR="/usr/share/java/antlr-complete.jar"
-
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT4_IM_MODULE=ibus
-export CLUTTER_IM_MODULE=ibus
-export GLFW_IM_MODULE=ibus
-
-path+=(~/.emacs.d/bin/ ~/.local/bin $GOPATH/bin)
-export PATH
+alias icat="kitty +kitten icat"
 
 alias cd..="cd .."
 alias ls="lsd"
